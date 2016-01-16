@@ -1,0 +1,29 @@
+
+<!--- Attention -  This is a simple contact form for a website for my students or anyone. See directions below.  You must replace the replaceyouremailhere@web.com with your real email or the from will not work.  Test the contact form.  First time a message will be sent to your email and you will need to confirm or the contact will not work. The other option is to create a new form in Dreamweaver.   Good luck!http://multimediatoolkit.me/ --->
+  <h1>Contact</h1>
+   <h2>Say hello!</h2>
+   <h2>
+  <!--- Attention -  replaceyouremailhere@web.com must be changed to your email or contact form will not work.  An email will verify this form.
+--->
+  <form action="http://formspree.io/replaceyouremailhere@web.com " method="post" name="form1" id="form1">
+    <label for="name">Name:</label>
+    <br>
+    <input name="name" type="text" required id="name" form="form1" size="30">
+    <br>
+    <label for="email">Email:</label>
+    <br>
+    <input name="email" type="email" required id="email" form="form1" size="30">
+    <br>
+    <label for="comments">Comment:</label>
+    <br>
+    <textarea name="comments" cols="30" required id="comments" form="form1"></textarea>
+    <br>
+    <input name="submit" type="submit" id="submit" form="form1" value="Submit">
+    &nbsp;
+  </form>  
+</h2>
+</article>
+</form>
+
+
+<!---Footer area starts here--->
