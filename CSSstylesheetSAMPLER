@@ -1,0 +1,89 @@
+<!--Sample style sheet - Here is a list of CSS items for a HTML, Dreamweaver site I like to use for my style sheet.  This is just to get started, but suggest you see what you like and make changes. SEE below and test.  Good luck!  http://multimediatoolkit.me/code-at-github/-->
+
+
+@charset "UTF-8";
+h1, h2, h3, {
+	text-align: center;
+}
+.navbar, .navbar-default {
+	border-width: 0px;
+	margin-top: 20px;
+}
+#main {
+	width: 75%;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+footer {
+	margin-top: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #383838;
+	color: #FFFFFF;
+	text-align: center;
+}
+.image-fill {
+	width: 100%;
+}
+#wrapper {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+.logo {
+	display: inherit;
+	clear: both;
+}
+.image-fill {
+	width: 100%;
+}
+.caption p a {
+	color: #27794E;
+	text-decoration: none;
+}
+body footer a {
+	color: #FFFAFA;
+	text-decoration: none;
+}
+body a {
+	color: #27794E;
+	text-decoration: none;
+}
+body footer a:hover  {
+	color: #CC3434;
+	text-decoration: none;
+}
+.caption p a:hover  {
+	color: #CACCDA;
+	text-decoration: none;
+}
+body a:hover {
+	color: #CACCDA;
+	text-decoration: none;
+}
+.image-wrap {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
