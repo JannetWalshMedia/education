@@ -1,0 +1,35 @@
+
+<!--Two Parts for making YouTube responsive in HTML, Dreaweaver page:  1.  Add Code to style sheet for making video responsive and 2.Add code to HTML page.  SEE below and test.  Good luck!-->
+<!-- For Style sheet - This is code needed for Style sheet - Copy and paste code for YouTube videos and update the embed code.  You can test this on your website.</div>-->
+
+<!--First Step - Place this code in your css  style sheet, not bootstrap or other locations.-->
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+
+
+
+<!--Second Step - Place the code below in the location you want the video to display on your HTML page.-->
+<!--For HTML - In HTML text editor or Adobe Dreamweaver, add video-container.  Copy and paste code for YouTube videos and update the embed code for to make YouTube responsive.  You can test this on your website.</div>-->
+
+
+<!--YOUTUBE CODE for responsive video-->
+<div class="video-container">
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLA2ny3ZBftd7EP3G_8Pf2dsNRBqlLRd1U" frameborder="0" allowfullscreen=""></iframe>
+</center>
+<!--end video-container--></div>
+<br>
